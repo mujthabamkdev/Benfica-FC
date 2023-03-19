@@ -1,0 +1,234 @@
+.navbar {
+    background-color: #f7a800;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+section {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+}
+
+section h1,
+section h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn-black {
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-black:hover {
+    background-color: #f7a800;
+    border-color: #f7a800;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+ul.list-unstyled li:nth-child(1) a {
+    color: #4267B2;
+}
+
+ul.list-unstyled li:nth-child(2) a {
+    color: #1DA1F2;
+}
+
+ul.list-unstyled li:nth-child(3) a {
+    color: #C13584;
+}
+
+ul.list-unstyled li:nth-child(4) a {
+    color: #FF0000;
+}
+
+.logo {
+    max-width: 300px;
+    animation: shine 1.5s infinite;
+}
+
+#events {
+    background-color: black;
+    color: yellow;
+}
+
+#events h2 {
+    color: #ffd800;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#events ul li {
+    position: relative;
+    list-style: none;
+}
+
+#events ul li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 216, 0, 0.8);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#events ul li:hover:before {
+    opacity: 1;
+}
+
+.event-img {
+    border-radius: 5px;
+}
+
+.event-img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: yellow;
+    color: transparent;
+    font-size: 24px;
+    border: none;
+    width: 5%;
+    background: transparent;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: transparent;
+    color: yellow;
+    border-color: yellow;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    opacity: 0.8;
+    background-color: transparent;
+}
+
+#gallery img {
+    height: 250px;
+    width: 100%;
+    border: 1px solid yellow;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
+}
+
+#gallery div.row {
+    margin-top: 10px;
+}
+
+.achievement-section {
+  padding: 80px 0;
+  background-color: yellow;
+}
+.achievement-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.achievement-card {
+  height: 400px;
+  width: 100%;
+  background-color: yellow !important;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.achievement-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+.achievement-image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.achievement-card-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.achievement-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.achievement-card-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .achievement-card {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .achievement-image {
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+  }
+  .achievement-card-content {
+    padding: 20px;
+  }
+  .achievement-card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .achievement-card-text {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+
+  #achievements .card-header{
+    background-color: black !important;
+    color: yellow;
+  }
+}
