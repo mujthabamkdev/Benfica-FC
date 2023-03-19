@@ -111,16 +111,15 @@ ul.list-unstyled li:nth-child(4) a {
 .carousel-control-prev,
 .carousel-control-next {
     background-color: yellow;
-    color: transparent;
+    color: black;
     font-size: 24px;
     border: none;
     width: 5%;
-    background: transparent;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-    background-color: transparent;
+    background-color: yellow;
     color: yellow;
     border-color: yellow;
 }
@@ -135,12 +134,13 @@ ul.list-unstyled li:nth-child(4) a {
     background-position: center;
     border-radius: 50%;
     opacity: 0.5;
+    color: #000;
 }
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
     opacity: 0.8;
-    background-color: transparent;
+    background-color: black;
 }
 
 #gallery img {
